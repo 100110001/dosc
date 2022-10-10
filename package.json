@@ -1,0 +1,28 @@
+{
+  "name": "vuepress-template",
+  "version": "1.0.6",
+  "description": "vuepress template",
+  "author": "alexliu518@gmail.com",
+  "main": "index.js",
+  "keywords": [
+    "theme",
+    "template",
+    "plugin",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/openHacking/vuepress-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openHacking/vuepress-template.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-qrcode": "^1.0.7"
+  }
+}
